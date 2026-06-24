@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buyer Dashboard - Stackly</title>
+  <link rel="icon" href="assets/stackly-mark.webp">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dashboard-page buyer-theme">
+  <div class="dashboard-shell">
+    <aside class="dashboard-sidebar">
+      <div class="dashboard-logo"><a href="index.html"><img src="assets/stackly-logo.svg" alt="Stackly"></a></div>
+      <nav class="dashboard-nav">
+        <a class="active" href="#"><span>&#9638;</span> Dashboard</a>
+        <a href="#"><span>&#9635;</span> My Purchase</a>
+        <a href="#"><span>&#9817;</span> My Sellers</a>
+        <a href="#"><span>&#9825;</span> Favourites</a>
+        <a href="#"><span>&#9636;</span> Wallet</a>
+        <a href="#"><span>&#9831;</span> My Reviews</a>
+        <a href="#"><span>&#9783;</span> Messages</a>
+        <a href="#"><span>&#9826;</span> Notifications</a>
+        <a href="#"><span>&#8596;</span> Transactions</a>
+        <a href="#"><span>&#9817;</span> My Profile</a>
+        <a href="#"><span>&#9881;</span> Settings</a>
+        <a class="logout" href="#" data-logout><span>&#8617;</span> Logout</a>
+      </nav>
+    </aside>
+    <main class="dashboard-main">
+      <div class="dashboard-topbar">
+        <span class="wallet-chip">&bull; Wallet Balance : $6658</span>
+        <div class="dashboard-actions">
+          <a class="tab" href="buyer-dashboard.html">User Dashboard</a>
+          <span class="login-email">user@stackly.in</span><span class="avatar-sm">U</span>
+        </div>
+      </div>
+      <section class="dashboard-content">
+        <h1>Dashboard</h1>
+        <div class="dash-grid-4">
+          <div class="dashboard-card metric-card"><div><p>Active Orders</p><strong>950</strong></div><span class="metric-icon purple">&#8599;</span></div>
+          <div class="dashboard-card metric-card"><div><p>Pending Orders</p><strong>800</strong></div><span class="metric-icon soft-green">&#10003;</span></div>
+          <div class="dashboard-card metric-card"><div><p>Completed Orders</p><strong>150</strong></div><span class="metric-icon orange">&#9432;</span></div>
+          <div class="dashboard-card metric-card"><div><p>Total Earnings</p><strong>$500,000</strong></div><span class="metric-icon red">$</span></div>
+        </div>
+
+        <div class="dash-grid-2 quick-stat-row">
+          <section class="dashboard-card">
+            <div class="panel-head"><h2>My Orders</h2><a href="#">View All</a></div>
+            <div class="order-list">
+              <div class="order-row"><img class="order-thumb" src="assets/service-7.webp" alt=""><div><div class="row-title">I will do creating and promoting video...</div><div class="row-sub">Delivery Date: 11 Jan 2025 | Buyer : Jones</div></div><span class="status-pill">New</span><strong class="row-price">$1400</strong></div>
+              <div class="order-row"><img class="order-thumb" src="assets/service-8.webp" alt=""><div><div class="row-title">I will do collaborating with influencers...</div><div class="row-sub">Delivery Date: 10 Jan 2025 | Buyer : Rose</div></div><span class="status-pill">New</span><strong class="row-price">$7500</strong></div>
+              <div class="order-row"><img class="order-thumb" src="assets/service-9.webp" alt=""><div><div class="row-title">I will do designing and executing targeted...</div><div class="row-sub">Delivery Date: 09 Jan 2025 | Buyer : Smith</div></div><span class="status-pill">New</span><strong class="row-price">$4470</strong></div>
+              <div class="order-row"><img class="order-thumb" src="assets/service-4.webp" alt=""><div><div class="row-title">Embedded Android & AOSP customizations...</div><div class="row-sub">Delivery Date: 08 Jan 2025 | Buyer : Lidia</div></div><span class="status-pill">New</span><strong class="row-price">$3570</strong></div>
+              <div class="order-row"><img class="order-thumb" src="assets/service-6.webp" alt=""><div><div class="row-title">I will do integrating AR elements into...</div><div class="row-sub">Delivery Date: 07 Jan 2025 | Buyer : Anderson</div></div><span class="status-pill green">Completed</span><strong class="row-price">$4780</strong></div>
+            </div>
+          </section>
+          <section class="dashboard-card">
+            <div class="panel-head"><h2>Files</h2><a href="#">View All</a></div>
+            <div class="file-list">
+              <div class="file-row"><span class="file-type">PDF</span><div><div class="row-title">Document.pdf</div><div class="row-sub">Update on: 11 Jan 2025</div></div><span>&#8681;</span></div>
+              <div class="file-row"><span class="file-type">IMG</span><div><div class="row-title">Logo.png</div><div class="row-sub">Update on: 10 Jan 2025</div></div><span>&#8681;</span></div>
+              <div class="file-row"><span class="file-type">IMG</span><div><div class="row-title">Worklog.png</div><div class="row-sub">Update on: 09 Jan 2025</div></div><span>&#8681;</span></div>
+              <div class="file-row"><span class="file-type">IMG</span><div><div class="row-title">Alter.png</div><div class="row-sub">Update on: 08 Jan 2025</div></div><span>&#8681;</span></div>
+              <div class="file-row"><span class="file-type">PNG</span><div><div class="row-title">Reportfile.png</div><div class="row-sub">Update on: 07 Jan 2025</div></div><span>&#8681;</span></div>
+            </div>
+          </section>
+        </div>
+
+        <div class="dash-grid-3 quick-stat-row">
+          <div class="dashboard-card mini-stat"><div><p>Total Credit</p><strong>$10,292.50</strong><div class="change-box"><span class="positive">+10%</span> from last week</div></div><span class="metric-icon">&#9636;</span></div>
+          <div class="dashboard-card mini-stat"><div><p>Total Debit</p><strong>$4,254.47</strong><div class="change-box"><span class="negative">-1%</span> from last week</div></div><span class="metric-icon red">&#9639;</span></div>
+          <div class="dashboard-card wallet-panel"><div><p>Earnings</p><strong>$1,57,815</strong><br><a href="#">Withdraw Funds</a></div><div><p>Wallet Balance</p><strong>$5690</strong><a class="btn btn-orange" href="#">Wallet</a></div></div>
+        </div>
+
+        <section class="dashboard-card chart-card">
+          <div class="chart-top"><h2>Revenue Statistics</h2><div><span class="row-sub">Revenue</span> &nbsp; <span class="row-sub">Withdrawn</span> &nbsp; <button class="tab">2025</button></div></div>
+          <div class="chart-bars">
+            <div class="bar-group"><span style="--h:70%"></span><span class="dark" style="--h:40%"></span><b>Jan</b></div><div class="bar-group"><span style="--h:45%"></span><span class="dark" style="--h:22%"></span><b>Feb</b></div><div class="bar-group"><span style="--h:62%"></span><span class="dark" style="--h:38%"></span><b>May</b></div><div class="bar-group"><span style="--h:82%"></span><span class="dark" style="--h:26%"></span><b>Mar</b></div><div class="bar-group"><span style="--h:64%"></span><span class="dark" style="--h:40%"></span><b>Jun</b></div><div class="bar-group"><span style="--h:24%"></span><span class="dark" style="--h:40%"></span><b>July</b></div><div class="bar-group"><span style="--h:78%"></span><span class="dark" style="--h:40%"></span><b>Aug</b></div><div class="bar-group"><span style="--h:32%"></span><span class="dark" style="--h:20%"></span><b>Apr</b></div><div class="bar-group"><span style="--h:60%"></span><span class="dark" style="--h:23%"></span><b>Sep</b></div><div class="bar-group"><span style="--h:42%"></span><span class="dark" style="--h:24%"></span><b>Oct</b></div><div class="bar-group"><span style="--h:32%"></span><span class="dark" style="--h:40%"></span><b>Nov</b></div><div class="bar-group"><span style="--h:42%"></span><span class="dark" style="--h:22%"></span><b>Dec</b></div>
+          </div>
+        </section>
+
+        <div class="dash-grid-2 quick-stat-row">
+          <section class="dashboard-card"><div class="panel-head"><h2>Recent Payments</h2><a href="#">View All</a></div><div class="payment-list"><div class="payment-row"><div><div class="row-title">I will create a chatbot to change leads...</div><div class="row-sub">Id : #232 | Order Date: 11 Jan 2025</div></div><span class="status-pill green">Received</span><strong class="row-price">+$500</strong></div><div class="payment-row"><div><div class="row-title">I will do english or german transcript of any...</div><div class="row-sub">Id : #231 | Order Date: 10 Jan 2025</div></div><span class="status-pill green">Received</span><strong class="row-price">+$500</strong></div><div class="payment-row"><div><div class="row-title">I will develop openai, dall, chat gpt app for...</div><div class="row-sub">Id : #229 | Order Date: 08 Jan 2025</div></div><span class="status-pill green">Received</span><strong class="row-price">+$7400</strong></div></div></section>
+          <section class="dashboard-card"><div class="panel-head"><h2>Recent Notifications</h2><a href="#">View All</a></div><div class="notify-list"><div class="notify-row"><div><div class="row-title">Your Password Changed</div><div class="row-sub">54 Min Ago</div></div></div><div class="notify-row"><div><div class="row-title">Payment Settings Updated</div><div class="row-sub">1 Hour Ago</div></div></div><div class="notify-row"><div><div class="row-title">Purchased Gigs "I will do professional..."</div><div class="row-sub">1 Day Ago</div></div></div><div class="notify-row"><div><div class="row-title">Profile Updated</div><div class="row-sub">1 Day Ago</div></div></div></div></section>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
